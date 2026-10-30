@@ -1,0 +1,31 @@
+:root {
+  --app-bg: #f4f7f6;
+}
+
+body {
+  background: var(--app-bg);
+  color: #16302b;
+}
+
+.app-header {
+  background: #0f766e;
+}
+
+.app-drawer {
+  background: #ffffff;
+}
+
+.app-link-active {
+  background: rgba(15, 118, 110, 0.1);
+  color: #0f766e;
+  font-weight: 600;
+}
+
+.stat-card,
+.q-card {
+  border-radius: 18px;
+}
+
+.q-table thead tr th {
+  font-weight: 600;
+}
